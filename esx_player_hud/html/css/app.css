@@ -1,0 +1,198 @@
+﻿@font-face {
+	font-family: 'Teko';
+	src: url('../fonts/Teko.woff') format('woff2'),
+		url('../fonts/Teko.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: "ChaletComprime";
+  src: url("../fonts/ChaletComprimeCologneSixty.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Heavy";
+  src: url("nui://alyniahud/hud/assets/fonts/Gilroy-HeavyItalic.ttf"),
+    url("../fonts/Gilroy-HeavyItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("nui://alyniahud/hud/assets/fonts/Gilroy-Bold.ttf"),
+    url("../fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url("nui://alyniahud/hud/assets/fonts/Gilroy-Semibold.ttf"),
+    url("../fonts/Gilroy-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "Bourgeois-Medium";
+  src: url("nui://alyniahud/hud/assets/fonts/Bourgeois-Medium.ttf"),
+    url("../fonts/Bourgeois-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Bourgeois-Bold";
+  src: url("nui://alyniahud/hud/assets/fonts/Bourgeois-Bold.ttf"),
+    url("../fonts/Bourgeois-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Bourgeois-BoldCondensed";
+  src: url("nui://alyniahud/hud/assets/fonts/Bourgeois-BoldCondensed.ttf"),
+    url("../fonts/Bourgeois-BoldCondensed.ttf");
+}
+
+@font-face {
+  font-family: "Bourgeois-BoldCondensedItalic";
+  src: url("nui://alyniahud/hud/assets/fonts/Bourgeois-BoldCondensedItalic.ttf"),
+    url("../fonts/Bourgeois-BoldCondensedItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-BoldItalic";
+  src: url("nui://alyniahud/hud/assets/fonts/Gilroy-BoldItalic.ttf"),
+    url("../fonts/Gilroy-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-BlackItalic";
+  src: url("nui://alyniahud/hud/assets/fonts/Gilroy-BlackItalic.ttf"),
+    url("../fonts/Gilroy-BlackItalic.ttf");
+}
+
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("nui://alyniahud/hud/assets/fonts/Gilroy-Medium.ttf"),
+    url("../fonts/Gilroy-Medium.ttf");
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'ChaletComprime', serif;
+}
+
+#infos {
+    position: absolute;
+    top: 3%;
+    right:2%;
+    width: 235px;
+}
+
+.info img.badge {
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	float: left;
+	margin-left: -40px;
+	border-radius:30px;
+}
+
+.info .container {
+	position: relative;
+	width: 235px;
+	height: 32px;
+	margin-bottom: 1px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius:30px;
+}
+
+.info .container .state {
+	position: absolute;
+	overflow: hidden;
+	width: 225px;
+	top: 6px;
+	left: 10px;
+	color: white;
+	font-size: 18px;
+	white-space: nowrap;
+	letter-spacing: 1px;
+	text-align: left;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.info .container .bar {
+	position: absolute;
+	height: 1px;
+	width: 267px;
+	top: 31px;
+	left: -32px;
+}
+
+.info img.subbadge {
+	position: absolute;
+	height: 12px;
+	width: 12px;
+	float: left;
+	margin-left: 14px;
+	margin-top: 4px;
+}
+
+.info .container .subcontainer {
+	position: absolute;
+	height: 20px;
+	width: 200px;
+	left: 35px;
+	top: 37px;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius:30px;
+}
+
+.info .container .subcontainer-user {
+	position: absolute;
+	height: 20px;
+	width: 68px;
+	left: -40px;
+	top: 37px;
+	border-radius:30px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+.info .container .state-user {
+	position: absolute;
+	overflow: hidden;
+	width: 75px;
+	top: 2px;
+	left: 25px;
+	color: white;
+	font-size: 18px;
+	white-space: nowrap;
+	letter-spacing: 1px;
+	text-align: left;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000000;
+	font-family: 'Arial', serif;
+	font-weight: bold;
+}
+
+.info img.subbadge-user {
+	position: absolute;
+	height: 12px;
+	width: 12px;
+	top: 4px;
+	left: 5px;
+}
+
+.info .container .subcontainer .state {
+	position: absolute;
+	overflow: hidden;
+	font-size: 12px;
+	top: 3px;
+	left: 32px;
+	width: 121px;
+	white-space: nowrap;
+	letter-spacing: 1px;
+	text-align: left;
+	text-overflow: ellipsis;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000000;
+}
